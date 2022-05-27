@@ -5,9 +5,8 @@ The implementation and dataset are available at https://github.com/yining610/Pro
 # Abstract
 
 # Model Framework
-![label](/label.png?raw=true "The model structure of supervised part of ProtSiNet")
-![unlabel](/unlabel.png?raw=true "The model structure of unsupervised part of ProtSiNet")
-
+![label](/label.png "The model structure of supervised part of ProtSiNet")
+![unlabel](/unlabel.png "The model structure of unsupervised part of ProtSiNet")
 
 # Question
 Any question please contact yiningl@kean.edu and qiujing@kean.edu
