@@ -16,7 +16,15 @@ The following are the main contributions of this paper:
 *The framework of supervised part of ProtSiNet*
 ![unlabel](/unlabel.png "The model structure of unsupervised part of ProtSiNet")
 *The framework of unsupervised part of ProtSiNet*
-# Question
-Any question please contact yiningl@kean.edu and qiujing@kean.edu
+
+# Run
+```
+python /Code/dataset/main.py
+```
+to generate few-shot dataset\
+```
+python /Code/train/train.py
+```
+to train the model and output accuracy
 
 
