@@ -5,7 +5,8 @@ The implementation and dataset are available at \url{https://github.com/yining61
 # Abstract
 
 # Model Framework
-![Alt text](/label.png?raw=true "The model structure of supervised part of ProtSiNet")
+![label](/label.png?raw=true "The model structure of supervised part of ProtSiNet")
+![unlabel](/unlabel.png?raw=true "The model structure of unsupervised part of ProtSiNet")
 
 
 # Question
