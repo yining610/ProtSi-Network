@@ -12,9 +12,9 @@ The following are the main contributions of this paper:
 * We conduct experiments on 4 questions from Kaggle dataset and demonstrate that the proposed methods outperforms the state-of-the-art.
 
 # Model Framework
-![label](/ProtSi_label_triple.png "The model structure of supervised part of ProtSiNet")
+![label](/label.png "The model structure of supervised part of ProtSiNet")
 *The framework of supervised part of ProtSiNet*
-![unlabel](/ProtSi_label_triple.png "The model structure of unsupervised part of ProtSiNet")
+![unlabel](/unlabel.png "The model structure of unsupervised part of ProtSiNet")
 *The framework of unsupervised part of ProtSiNet*
 
 # Run
