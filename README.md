@@ -18,11 +18,11 @@ Subjective answer evaluation is a time-consuming and tedious task, and the quali
 ```
 python /dataset/main.py
 ```
-to prepare few-shot dataset for certain question. The question set information can be edited in /dataset/config.py file. \\
+to prepare few-shot dataset for certain question. The question set information and corresponding model answer can be changed in **/dataset/config.py** file. \
 Then run
 ```
 python /Code/train/train.py
 ```
-to train the model using generated dataset and output testing accuracy and quadratic weighted kappa
+to train the model using generated dataset and output testing accuracy and quadratic weighted kappa. The dataset information in **/train/config.py** should be consistent with **/dataset/config.py**
 
 
