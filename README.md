@@ -1,7 +1,5 @@
 # ProtSi: Prototypical-Siamese-Network-for-Few-Shot-Subjective-Answer-Evaluation
 
-The implementation and dataset are available at https://github.com/yining610/ProtSi-Network
-
 # Abstract
 
 # Contributions
