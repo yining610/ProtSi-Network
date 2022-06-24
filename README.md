@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 python /dataset/main.py
 ```
-to prepare few-shot dataset for certain question. The question set information and corresponding model answer can be changed in **/dataset/config.py** file.
+to prepare few-shot dataset for certain question. The **/dataset/model_answers.txt** file stores all the model answers we used for 10 questions and the question set information and corresponding model answer can be changed in **/dataset/config.py** file.
 ## Training
 ```
 python /Code/train/train.py
