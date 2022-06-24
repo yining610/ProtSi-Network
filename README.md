@@ -13,7 +13,10 @@ Subjective answer evaluation is a time-consuming and tedious task, and the quali
 *The framework of supervised part of ProtSiNet*
 ![unlabel](/unlabel.png "The model structure of unsupervised part of ProtSiNet")
 *The framework of unsupervised part of ProtSiNet*
-
+# Requirements
+···
+pip install -r requirements.txt
+···
 # Run
 ```
 python /dataset/main.py
@@ -23,6 +26,7 @@ Then run
 ```
 python /Code/train/train.py
 ```
-to train the model using generated dataset and output testing accuracy and quadratic weighted kappa. The dataset information in **/train/config.py** should be consistent with **/dataset/config.py**
+to train the model using generated dataset and output testing accuracy and quadratic weighted kappa. The dataset information in **/train/config.py** should be consistent with **/dataset/config.py** \
+The four baseline methods are reimplemented in the folder **/Comparatie_Experiment**
 
 
