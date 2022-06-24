@@ -14,19 +14,21 @@ Subjective answer evaluation is a time-consuming and tedious task, and the quali
 ![unlabel](/unlabel.png "The model structure of unsupervised part of ProtSiNet")
 *The framework of unsupervised part of ProtSiNet*
 # Requirements
-···
+```
 pip install -r requirements.txt
-···
+```
 # Run
+## Generate Dataset
 ```
 python /dataset/main.py
 ```
-to prepare few-shot dataset for certain question. The question set information and corresponding model answer can be changed in **/dataset/config.py** file. \
-Then run
+to prepare few-shot dataset for certain question. The question set information and corresponding model answer can be changed in **/dataset/config.py** file.
+## Training
 ```
 python /Code/train/train.py
 ```
-to train the model using generated dataset and output testing accuracy and quadratic weighted kappa. The dataset information in **/train/config.py** should be consistent with **/dataset/config.py** \
-The four baseline methods are reimplemented in the folder **/Comparatie_Experiment**
+to train the model using generated dataset and output testing accuracy and quadratic weighted kappa. The dataset information in **/train/config.py** should be consistent with **/dataset/config.py** 
+## Comparative Experiments
+The four baseline methods are reimplemented and the code are available in the folder **/Comparatie_Experiment**
 
 
