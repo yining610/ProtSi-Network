@@ -31,4 +31,14 @@ to train the model using generated dataset and output testing accuracy and quadr
 ## Comparative Experiments
 The four baseline methods are reimplemented and the code are available in the folder **/Comparatie_Experiment**
 
+# How to Cite
+If you extend or use this work, please cite the relevant papers:
+```
+@article{lu2022protsi,
+  title={ProtSi: Prototypical Siamese Network with Data Augmentation for Few-Shot Subjective Answer Evaluation},
+  author={Lu, Yining and Qiu, Jingxi and Gupta, Gaurav},
+  journal={arXiv preprint arXiv:2211.09855},
+  year={2022}
+}
+```
 
